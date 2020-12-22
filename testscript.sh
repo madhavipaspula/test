@@ -1,7 +1,11 @@
-#!/bin/bash
-echo "this script is from github"
-NUMBER=$(($NUMBERONE + $NUMBERTWO))
-echo "$NUMBER"
-echo "this is complete"
-echo "this was run automatically"
 
+#!/bin/bash
+# Calculate the sum of two integers with pre initialize values
+# in a shell script
+ 
+a=10
+b=20
+ 
+sum=$(( $a + $b ))
+ 
+echo $sum
